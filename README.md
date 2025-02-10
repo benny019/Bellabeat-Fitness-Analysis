@@ -1,6 +1,6 @@
 # BELLABEAT FITNESS ANALYSIS
 ![](bellabeat_intro.webp)
-## *INTRODUCTION*
+## INTRODUCTION
 This is a capstone case study project as part of my Google Data Analytics Professional Certificate course. The case study assumes me to be a data analyst working with the marketing analyst team at **Bellabeat**, a high-tech company that manufactures health-focused smart products.They offer different smart devices that collect data on activity, sleep, stress, and reproductive health to empower women with knowledge about their own health and habits.
 
 ## Key Task
@@ -37,7 +37,7 @@ The data explorer tab on Kaggle has two sepaprate folders:
 *mturkfitbit_export_4.12.16-5.12.16* with 18 csv files for the date between 04/12/2016 and 05/12/2016.
 
 I downloaded both datasets to ensure complete data coverage for the survey period. However, out of the multiple files in each folder, I only used the **daily_activities** and **sleep** files, as they contained most of the relevant information found in the other files. To proceed with the analysis, I would need to merge these datasets.
-data collection 1        | data collection 2
+data (03/12/2016 - 04/11/2016)       | data (04/12/2016 - 05/12/2016)
 :-----------------------:|:--------------------:
 ![](data_collection1.png)|![](data_collection2.png)
 
