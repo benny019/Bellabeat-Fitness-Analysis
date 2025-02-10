@@ -9,7 +9,7 @@ This is a capstone case study project as part of my Google Data Analytics Profes
 - Come up with high-level recommendations for how these trends can inform Bellabeat marketing strategy.
 
 ## Concept Demonstrated
-To successfully carry out this project, I diligently followed the six steps of data analysis processes as learnt in the course: ask, prepare, process, analyze, share, and act, using three analytical tools: Excel, SQL and Tableau. Stated below are details of tasks carried out in each step. 
+To successfully carry out this project, I diligently followed the six steps of data analysis processes as learnt in the course: ask, prepare, process, analyze, share, and act, using three analytical tools: Excel, SQL and Tableau. With this, I was able to demonstrate several analytical skills, but one that I find most interesting is the use of advanced features in Tableau, including navigation buttons for a better interacion with the visuals. Stated below are details of tasks carried out in each step. 
 
 
 
@@ -138,29 +138,30 @@ After these classifications, I was then able to easily visualize patterns in use
 
 
 ## PHASE 5: SHARE 
-
 ### Insights From Examining Users' Average Behaviour (Overview)
-
+![](overview_dashboard.png)
 1. **Investigation on Calory Burn:** Generally, the influence of users' activities on the amount of calory burn reduce by level of intensity, in fact, sedentary periods have a negative correlation.  Specifically, users' daily steps and active mins both correlates positively with amount of calory burn, though, active mins has a stronger correlation. This infer that the amount of calory burn is expected to rise as daily steps or active mins increases. (Note: active mins = 2(very active mins) + fairly active mins)
 2. **Investigation on Sleep Behaviour:** The users' daily steps and active minutes both have very weak negative (or almost no) correlation with their sleep duration. Also their activities, regardless of the intensity level have barely no influence on their sleep behaviour, except for sedentary minutes which have moderately negative correlation.
 
 
 ### Insights from Step-Based In-depth Analysis
+![](indepth_analysis1_dashboard.png)
 
 1. **Usertype Distribution:** The number of users in each group reduces orderly. While sedentary users claim the highest population (11), we have 9 lightly active users, 8  fairly active users and 7 very active users. Making a total of 35. 
 2. **Sleep Behaviour:** There are 12 bad sleepers, 11 normal sleepers and just 1 over sleeper. It appears that sleep information is only available for 24 out of all 35 users.
 3. **Activities and Habits:** The fairly active users appear to have the highest amount of calory burn and not the very active users who were associated with most daily steps and active minutes. This was no longer a surprise as the fairly active users were seen to have the least sedentary periods and best sleep habit.
 4. **Sleep Habits' Underlying Effect on Users:** It turned out that most fairly active users (6 out of 8) were normal sleepers while most very active users (4 out 0f 5) were bad sleepers. A reason the very active users didn't burn most calories could most like be because of their higher sedentary periods, further traced to bad sleep habit.
 
-### Insights From Intensity Based In-depth Analysis
 
+### Insights From Intensity Based In-depth Analysis
+![](indepth_analysis2_dashboard.png)
 1. **Usertype Distribution:** There are 15 low intensity users, 8 moderate intensity and 12 high intensity users. The sleep distribution remains the same as above.
 2. **Activities and Habits:** The high intensity users have the highest amount of calory burn. This was not a surprise as they clearly have the most intensive activities, highest average daily steps, least sedentary period and as well quality sleep habits. We could see that most of the high intensity users (5 out of 9) are normal sleepers, as opposed to the other usertypes.
 3. **Consistency in Intensity-based Distribution:** The trends in the intensity based analysis consistently appeared in order of distribution. This could be because the method accounted for all kinds of activities exhibited by the users as opposeed to the former where they were grouped just by their daily steps.
 
-### Visualization
+### Access to Visualization
 
-For a better interaction, click [here](https://public.tableau.com/views/BellabeatFitnessTracker_17292563592600/DashboardOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) for the visuals in Tableau Public, where you can hover between each dasboards using the navigation buttons. 
+For a better interaction, click [here](https://public.tableau.com/views/BellabeatFitnessTracker_17292563592600/DashboardOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) for the visuals in Tableau Public, where you can hover between each dasboards by simply using the navigation buttons. 
 
 
 
