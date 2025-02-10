@@ -1,5 +1,5 @@
 # BELLABEAT FITNESS ANALYSIS
-![](bellabeat_intro.png)
+![](bellabeat_intro.webp)
 ## *INTRODUCTION*
 This is a capstone case study project as part of my Google Data Analytics Professional Certificate course. The case study assumes me to be a data analyst working with the marketing analyst team at **Bellabeat**, a high-tech company that manufactures health-focused smart products.They offer different smart devices that collect data on activity, sleep, stress, and reproductive health to empower women with knowledge about their own health and habits.
 
@@ -37,6 +37,9 @@ The data explorer tab on Kaggle has two sepaprate folders:
 *mturkfitbit_export_4.12.16-5.12.16* with 18 csv files for the date between 04/12/2016 and 05/12/2016.
 
 I downloaded both datasets to ensure complete data coverage for the survey period. However, out of the multiple files in each folder, I only used the **daily_activities** and **sleep** files, as they contained most of the relevant information found in the other files. To proceed with the analysis, I would need to merge these datasets.
+data collection 1        | data collection 2
+:-----------------------:|:--------------------:
+![](data_collection1.png)|![](data_collection2.png)
 
 ### Data Credibility & Integrity
 I used Excel to quickly explore the data, gaining an understanding of their structure and organization. Afterward, I reassessed their relevance to the business task and evaluated data quality using the ROCCC framework (Reliable, Original, Comprehensive, Current, and Cited).
@@ -74,6 +77,9 @@ After merging, I performed another round of data cleaning and validation using S
 * Rename the columns headers to be easily understandable and ensure consistency and successful merging
 * Merged the two datasets together to have all details in a place using Union Function.
 
+merged data
+![](merged_data.png)
+
 *Note: The csv file for the merged dataset is available in the input tab (/kaggle/input/merged-data/full daily data.csv).*
 
 
@@ -92,6 +98,8 @@ It is worthy of note that I stuck with the WHO Physical Activity Recommendation 
 To calculate period of activeness, WHO considers vigorous activity more intense than moderate activity, so it counts for more in terms of time. Specifically, the WHO says "minute of vigorous-intensity activity is approximately equivalent to 2 minutes of moderate-intensity activity in terms of health benefits." Applying this to my dataset:
 #### **total active mins = 2(very_active_mins) + fairly_active_mins.**
 
+Individual Mean Data
+![](individual _mean_data.png)
 ### Overview: Examining user Average Behaviour
 After the computations, I unploaded the dataset into **Tableau** and began my investigation. I used majorly scatter plots to visualize how calory burn and sleep duration corelate differently with daily steps, active minutes and all activity intensity levels for each user. I also checked the calories burnt and sleeping habit by days.
 
