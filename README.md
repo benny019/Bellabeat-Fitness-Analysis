@@ -1,5 +1,5 @@
 # BELLABEAT FITNESS ANALYSIS
-
+![](bellabeat_intro.png)
 ## *INTRODUCTION*
 This is a capstone case study project as part of my Google Data Analytics Professional Certificate course. The case study assumes me to be a data analyst working with the marketing analyst team at **Bellabeat**, a high-tech company that manufactures health-focused smart products.They offer different smart devices that collect data on activity, sleep, stress, and reproductive health to empower women with knowledge about their own health and habits.
 
