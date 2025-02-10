@@ -99,7 +99,7 @@ To calculate period of activeness, WHO considers vigorous activity more intense 
 #### **total active mins = 2(very_active_mins) + fairly_active_mins.**
 
 Individual Mean Data
-![](individual _mean_data.png)
+![](individual_mean_data.png)
 ### Overview: Examining user Average Behaviour
 After the computations, I unploaded the dataset into **Tableau** and began my investigation. I used majorly scatter plots to visualize how calory burn and sleep duration corelate differently with daily steps, active minutes and all activity intensity levels for each user. I also checked the calories burnt and sleeping habit by days.
 
