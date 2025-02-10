@@ -70,6 +70,7 @@ After merging, I performed another round of data cleaning and validation using S
 * Removed unnecessary records
 * Splitted ActivityDate Column to Date and Time Columns
 * Calculated the total minutes asleep per day by each ID
+![](sleep_min_calculation.png)
 * Checked the result for necessary cleaning process
 * Removed dates outside consideration
 * Joined the daily activity data column with the sleep data of the second dataset (using left full join function)
